@@ -28,6 +28,7 @@ printline 1. Insert Break Indices
 printline You must select a Sound and a TextGrid to run this script.
 printline The input TextGrid must have a "words" and a "syll" tier,
 printline e.g. as produced by EasyAlign.
+printline The files may contain one or more utterances.
 printline The script checks the words against a list of Spanish clitics
 printline and labels them with Break Index (BI) = 0.
 printline Utterance-final words (detected by the following space or _)
