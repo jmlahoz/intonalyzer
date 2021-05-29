@@ -1,5 +1,5 @@
 # LICENSE
-# (C) 2021 José María Lahoz-Bengoechea
+# (C) 2021 JosÃ© MarÃ­a Lahoz-Bengoechea
 # This file is part of Intonalyzer.
 # Intonalyzer is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License
@@ -16,7 +16,7 @@
 
 
 clearinfo
-printline Contact, questions, suggestions: José María Lahoz-Bengoechea'newline$''tab$'jmlahoz@ucm.es
+printline Contact, questions, suggestions: JosÃ© MarÃ­a Lahoz-Bengoechea'newline$''tab$'jmlahoz@ucm.es
 printline
 printline Intonalyzer is a tool designed to transcribe Spanish intonation
 printline following ToBI principles.

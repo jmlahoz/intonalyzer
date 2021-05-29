@@ -1,9 +1,9 @@
 # Intonalyzer
-# José María Lahoz-Bengoechea (jmlahoz@ucm.es)
+# JosÃ© MarÃ­a Lahoz-Bengoechea (jmlahoz@ucm.es)
 # Version 2021-05-27
 
 # LICENSE
-# (C) 2021 José María Lahoz-Bengoechea
+# (C) 2021 JosÃ© MarÃ­a Lahoz-Bengoechea
 # This file is part of Intonalyzer.
 # Intonalyzer is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License
@@ -36,7 +36,7 @@ clearinfo
 printline Revisa: debes introducir los BI = 3 a mano (en lugar de 2 o 4) en las fronteras de grupo intermedio.
 endif
 
-cliticos = Read Table from comma-separated file... clíticos.csv
+cliticos = Read Table from comma-separated file... clÃ­ticos.csv
 nclit = Get number of rows
 
 select 'tg'
@@ -71,7 +71,7 @@ loint = Get low interval at time... sylltier end
 hiint = Get high interval at time... sylltier end
 if loint != hiint
 t = end
-elsif index("aeiouáéíóú",right$(lab$,1)) != 0 ; syllable merger context
+elsif index("aeiouÃ¡Ã©Ã­Ã³Ãº",right$(lab$,1)) != 0 ; syllable merger context
 t = Get end time of interval... sylltier hiint
 else ; resyllabification context
 t = Get start time of interval... sylltier loint
@@ -89,33 +89,33 @@ select tg
 Set point text... bitier curbi 0
 if show_info_window = 1
 if iclit > 12 and iclit < 21
-printline Revisa: si en el intervalo 'iword' el posesivo "nuestro(a/os/as)", "vuestro(a/os/as)" es adjetivo en lugar de determinante, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' el posesivo "nuestro(a/os/as)", "vuestro(a/os/as)" es adjetivo en lugar de determinante, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 37
-printline Revisa: si en el intervalo 'iword' "bajo" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "bajo" no es preposiciÃ³n, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 39
-printline Revisa: si en el intervalo 'iword' "contra" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "contra" no es preposiciÃ³n, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 43
-printline Revisa: si en el intervalo 'iword' "entre" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "entre" no es preposiciÃ³n, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 46
-printline Revisa: si en el intervalo 'iword' "para" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "para" no es preposiciÃ³n, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 49
-printline Revisa: si en el intervalo 'iword' "sobre" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "sobre" no es preposiciÃ³n, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 54
-printline Revisa: si en el intervalo 'iword' "salvo" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "salvo" no es preposiciÃ³n, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 55
 Set point text... bitier curbi 2
-printline Revisa: si en el intervalo 'iword' "don" es tratamiento de cortesía, cambia el BI a 0 y quita la marca de acento de la sílaba.
+printline Revisa: si en el intervalo 'iword' "don" es tratamiento de cortesÃ­a, cambia el BI a 0 y quita la marca de acento de la sÃ­laba.
 elsif iclit = 58
 Set point text... bitier curbi 2
-printline Revisa: si en el intervalo 'iword' "santa" va seguido del nombre de la santa, cambia el BI a 0 y quita la marca de acento de la sílaba.
+printline Revisa: si en el intervalo 'iword' "santa" va seguido del nombre de la santa, cambia el BI a 0 y quita la marca de acento de la sÃ­laba.
 elsif iclit = 67
-printline Revisa: si en el intervalo 'iword' "sino" significa 'destino', cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "sino" significa 'destino', cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 71
-printline Revisa: si en el intervalo 'iword' "mientras" es adverbio en lugar de conjunción, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "mientras" es adverbio en lugar de conjunciÃ³n, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 72
-printline Revisa: si en el intervalo 'iword' "luego" es adverbio en lugar de conjunción, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "luego" es adverbio en lugar de conjunciÃ³n, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 elsif iclit = 75
-printline Revisa: si en el intervalo 'iword' "medio" no es adverbio, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+printline Revisa: si en el intervalo 'iword' "medio" no es adverbio, cambia el BI a 2 y aÃ±ade la marca de acento a la sÃ­laba correspondiente.
 endif ; warning texts
 endif ; show_info_window = 1
 endif ; lab$ = iclitmay$ or lab$ = iclitmin$

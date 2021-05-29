@@ -1,9 +1,9 @@
 # Intonalyzer
-# José María Lahoz-Bengoechea (jmlahoz@ucm.es)
+# JosÃ© MarÃ­a Lahoz-Bengoechea (jmlahoz@ucm.es)
 # Version 2021-05-27
 
 # LICENSE
-# (C) 2021 José María Lahoz-Bengoechea
+# (C) 2021 JosÃ© MarÃ­a Lahoz-Bengoechea
 # This file is part of Intonalyzer.
 # Intonalyzer is free software; you can redistribute it and/or modify it
 # under the terms of the GNU General Public License
@@ -829,8 +829,8 @@ f0max_prevtarget = undefined.return
 endif
 difmaxprevtargetton = (12 / log10 (2)) * log10 (f02ton / f0max_prevtarget)
 if difmaxprevtargetton >= threshold and prev_tonic_ends_high = 1
-surfacetone$ = "¡H*"
-underlyingtone$ = "¡H*"
+surfacetone$ = "Â¡H*"
+underlyingtone$ = "Â¡H*"
 tonic_ends_high = 1
 there_is_high = 1
 if f0maxton > highest
@@ -845,8 +845,8 @@ if f0maxton > highest
 highest = f0maxton
 endif
 elsif difhighestmaxton >= threshold
-surfacetone$ = "¡H*"
-underlyingtone$ = "¡H*"
+surfacetone$ = "Â¡H*"
+underlyingtone$ = "Â¡H*"
 tonic_ends_high = 1
 there_is_high = 1
 if f0maxton > highest
@@ -935,8 +935,8 @@ f0_prevtarget = undefined.return
 endif
 difprevtargetton = (12 / log10 (2)) * log10 (f02ton / f0_prevtarget)
 if difprevtargetton > threshold
-surfacetone$ = "¡H*"
-underlyingtone$ = "¡H*"
+surfacetone$ = "Â¡H*"
+underlyingtone$ = "Â¡H*"
 tonic_ends_high = 1
 there_is_high = 1
 if f0maxton > highest
@@ -1031,7 +1031,7 @@ endif
 endif
 ##}
 
-##{ L+¡H*
+##{ L+Â¡H*
 if difpreton >= threshold or diftonton >= threshold or (difmintonmaxton >= threshold and diftonton > 0)
 if there_are_more_prenuclear_accents = 1
 select tg
@@ -1046,8 +1046,8 @@ endif
 difprevtargetpre = (12 / log10 (2)) * log10 (f02pre / f0_prevtarget)
 if prev_tonic_ends_high = 0 and isyll-prevtargetsyll >= 2 and difprevtargetpre < threshold
 ... and (difhighestmaxton >= threshold or difpremaxton >= upstep_threshold or diftonton >= upstep_threshold or (difmintonmaxton >= upstep_threshold and diftonton > 0))
-surfacetone$ = "L+¡H*"
-underlyingtone$ = "L+¡H*"
+surfacetone$ = "L+Â¡H*"
+underlyingtone$ = "L+Â¡H*"
 tonic_ends_high = 1
 there_is_high = 1
 if f0maxton > highest
@@ -1055,8 +1055,8 @@ highest = f0maxton
 endif
 elsif prev_tonic_ends_high = 1 and isyll-prevtargetsyll >=2 and difprevtargetpre < negthreshold
 ... and (difhighestmaxton >= threshold or difpremaxton >= upstep_threshold or diftonton >= upstep_threshold or (difmintonmaxton >= upstep_threshold and diftonton > 0))
-surfacetone$ = "L+¡H*"
-underlyingtone$ = "L+¡H*"
+surfacetone$ = "L+Â¡H*"
+underlyingtone$ = "L+Â¡H*"
 tonic_ends_high = 1
 there_is_high = 1
 if f0maxton > highest
@@ -1065,8 +1065,8 @@ endif
 endif
 elsif there_are_more_prenuclear_accents = 0
 ... and (difpremaxton >= upstep_threshold or diftonton >= upstep_threshold or (difmintonmaxton >= upstep_threshold and diftonton > 0))
-surfacetone$ = "L+¡H*"
-underlyingtone$ = "L+¡H*"
+surfacetone$ = "L+Â¡H*"
+underlyingtone$ = "L+Â¡H*"
 tonic_ends_high = 1
 there_is_high = 1
 if f0maxton > highest
@@ -1076,8 +1076,8 @@ endif
 endif
 if (difpreton <= negthreshold or difprepre <= negthreshold) and difton2ton3 >= threshold and abs(difton2ton3) > abs(difton1ton2)
 ... and (difhighestmaxton >= threshold or difpremaxton >= upstep_threshold or diftonton >= upstep_threshold or (difmintonmaxton >= upstep_threshold and diftonton > 0))
-surfacetone$ = "L+¡H*"
-underlyingtone$ = "L+¡H*"
+surfacetone$ = "L+Â¡H*"
+underlyingtone$ = "L+Â¡H*"
 tonic_ends_high = 1
 there_is_high = 1
 if f0maxton > highest
@@ -1096,11 +1096,11 @@ underlyingtone$ = "L+H*+L"
 tonic_ends_high = 0
 endif
 ##}
-##{ L+¡H*+L
+##{ L+Â¡H*+L
 if difton1ton2 >= threshold and difton2ton3 <= negthreshold
 ... and (abs(difton1ton2) >= upstep_threshold or abs(difton2ton3) >= upstep_threshold or difhighestmaxton >= threshold)
-surfacetone$ = "L+¡H*+L"
-underlyingtone$ = "L+¡H*+L"
+surfacetone$ = "L+Â¡H*+L"
+underlyingtone$ = "L+Â¡H*+L"
 tonic_ends_high = 0
 endif
 ##}
@@ -1182,7 +1182,7 @@ if underlyingboundarytone$ = "HH%"
 select tg
 ntonesnow = Get number of points... tonestier
 prevtone$ = Get label of point... tonestier ntonesnow
-if prevtone$ = "L+¡H*"
+if prevtone$ = "L+Â¡H*"
 underlyingtone$ = "L+H*"
 Set point text... tonestier ntonesnow 'underlyingtone$'
 endif
@@ -1210,16 +1210,16 @@ underlyingboundarytone$ = "M%"
 endif
 if tonic_ends_high = 1 and (diftail_050 >= threshold or diftail_0max050 >= threshold) and diftail_50100 <= negthreshold and f0tail_100 > one_third
 ... and stresspattern = 0
-surfaceboundarytone$ = "¡HM%"
+surfaceboundarytone$ = "Â¡HM%"
 underlyingboundarytone$ = "M%"
 select tg
 ntonesnow = Get number of points... tonestier
 prevtone$ = Get label of point... tonestier ntonesnow
-if prevtone$ = "H*" or prevtone$ = "¡H*"
-underlyingtone$ = "¡H*"
+if prevtone$ = "H*" or prevtone$ = "Â¡H*"
+underlyingtone$ = "Â¡H*"
 Set point text... tonestier ntonesnow 'underlyingtone$'
-elsif prevtone$ = "L+H*" or prevtone$ = "L+¡H*"
-underlyingtone$ = "L+¡H*"
+elsif prevtone$ = "L+H*" or prevtone$ = "L+Â¡H*"
+underlyingtone$ = "L+Â¡H*"
 Set point text... tonestier ntonesnow 'underlyingtone$'
 endif
 endif
@@ -1239,20 +1239,20 @@ surfaceboundarytone$ = "HL%"
 underlyingboundarytone$ = "HL%"
 endif
 if tonic_ends_high = 1 and diftail_050 >= threshold and diftail_50100 <= negthreshold and f0tail_100 <= one_third
-surfaceboundarytone$ = "¡HL%"
+surfaceboundarytone$ = "Â¡HL%"
 underlyingboundarytone$ = "HL%"
 endif
 
-if surfaceboundarytone$ = "¡HL%"
+if surfaceboundarytone$ = "Â¡HL%"
 select tg
 ntonesnow = Get number of points... tonestier
 prevtone$ = Get label of point... tonestier ntonesnow
-if prevtone$ = "H*" or prevtone$ = "¡H*"
-underlyingtone$ = "¡H*"
+if prevtone$ = "H*" or prevtone$ = "Â¡H*"
+underlyingtone$ = "Â¡H*"
 underlyingboundarytone$ = "L%"
 Set point text... tonestier ntonesnow 'underlyingtone$'
-elsif prevtone$ = "L+H*" or prevtone$ = "L+¡H*"
-underlyingtone$ = "L+¡H*"
+elsif prevtone$ = "L+H*" or prevtone$ = "L+Â¡H*"
+underlyingtone$ = "L+Â¡H*"
 underlyingboundarytone$ = "L%"
 Set point text... tonestier ntonesnow 'underlyingtone$'
 endif
@@ -1271,17 +1271,17 @@ underlyingboundarytone$ = "HM%"
 endif
 if tonic_ends_high = 1 and (diftail_050 >= threshold or diftail_0max050 >= threshold) and diftail_50100 <= negthreshold and f0tail_100 > one_third
 ... and stresspattern > 0
-surfaceboundarytone$ = "¡HM%"
+surfaceboundarytone$ = "Â¡HM%"
 underlyingboundarytone$ = "HM%"
 select tg
 ntonesnow = Get number of points... tonestier
 prevtone$ = Get label of point... tonestier ntonesnow
-if prevtone$ = "H*" or prevtone$ = "¡H*"
-underlyingtone$ = "¡H*"
+if prevtone$ = "H*" or prevtone$ = "Â¡H*"
+underlyingtone$ = "Â¡H*"
 underlyingboundarytone$ = "M%"
 Set point text... tonestier ntonesnow 'underlyingtone$'
-elsif prevtone$ = "L+H*" or prevtone$ = "L+¡H*"
-underlyingtone$ = "L+¡H*"
+elsif prevtone$ = "L+H*" or prevtone$ = "L+Â¡H*"
+underlyingtone$ = "L+Â¡H*"
 underlyingboundarytone$ = "M%"
 Set point text... tonestier ntonesnow 'underlyingtone$'
 endif
