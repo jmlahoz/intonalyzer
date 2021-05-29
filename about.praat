@@ -1,6 +1,6 @@
 clearinfo
 printline Version May 27th, 2021
-printline 'newline$'Intonalyzer is partially based on Eti-ToBI, by Wendy Elvira-Garcia,
+printline 'newline$'Intonalyzer is partially based on Eti-ToBI, by Wendy Elvira-Garcia (2015),
 printline 'newline$'and further developed by José María Lahoz-Bengoechea.
 printline 'newline$'Contact, questions, suggestions:'newline$''tab$'jmlahoz@ucm.es
 printline
