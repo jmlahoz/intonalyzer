@@ -36,7 +36,7 @@ clearinfo
 printline Revisa: debes introducir los BI = 3 a mano (en lugar de 2 o 4) en las fronteras de grupo intermedio.
 endif
 
-cliticos = Read Table from comma-separated file... clíticos.csv
+clitics = Read Table from comma-separated file... clitics.csv
 nclit = Get number of rows
 
 select 'tg'
@@ -81,7 +81,7 @@ Insert point... bitier t
 curbi = Get nearest index from time... bitier t
 
 for iclit from 1 to nclit
-select cliticos
+select clitics
 iclitmay$ = Get value... iclit nacmay
 iclitmin$ = Get value... iclit nacmin
 if lab$ = iclitmay$ or lab$ = iclitmin$
@@ -140,7 +140,7 @@ select tg
 Remove tier... wordtier
 endif
 
-select cliticos
+select clitics
 Remove
 
 select so
