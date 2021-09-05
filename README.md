@@ -37,6 +37,7 @@ Intonalyzer runs in two steps.
 ------------------------------------------------------------------------------------------
 
 1. Insert Break Indices
+
 You must select a Sound and a TextGrid to run this script.
 The input TextGrid must have a "words" and a "syll" tier,
 e.g. as produced by EasyAlign.
@@ -52,15 +53,21 @@ BI = 3 according to syntactic structure or relevant pauses
 must be hand-corrected, too.
 
 Boundaries signaled by Break Indices are interpreted as follows:
+
 0: (unstressed) clitic words
+
 1: stressed but deaccented words (W boundary)
+
 2: (prenuclear) accented words, i.e. accentual phrase (AP boundary)
+
 3: intermediate intonational phrase (iP boundary)
+
 4: (nuclear) accented words, i.e. major intonational phrase (IP boundary)
 
 -------------------------------------------------------------------------
 
 2. Insert Tones
+
 You must select a Sound and a TextGrid to run this script.
 The input TextGrid must have a "syll" and a "BI" tier.
 The script analyzes pitch movements
