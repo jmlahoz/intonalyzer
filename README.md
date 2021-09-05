@@ -33,6 +33,7 @@ How to install Intonalyzer as a Praat plugin in a permanent fashion:
 
 
 Intonalyzer runs in two steps.
+
 ------------------------------------------------------------------------------------------
 
 1. Insert Break Indices
