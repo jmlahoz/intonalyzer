@@ -10,6 +10,8 @@
 # of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
 # For more details, you can find the GNU General Public License here:
 # http://www.gnu.org/licenses/gpl-3.0.en.html
+# Intonalyzer is partially based on Eti-ToBI, by Wendy Elvira-García (2015),
+# and further developed by José María Lahoz-Bengoechea.
 # Intonalyzer runs on Praat, a software developed by Paul Boersma
 # and David Weenink at University of Amsterdam.
 
