@@ -5,8 +5,7 @@ printline 'newline$'and further developed by José María Lahoz-Bengoechea.
 printline 'newline$'Contact, questions, suggestions:'newline$''tab$'jmlahoz@ucm.es
 printline
 printline Suggested citation:
-printline Lahoz-Bengoechea, José María (2021). Intonalyzer (1.0) [Computer software].
-printline Retrieved from https://github.com/jmlahoz/intonalyzer
+printline Lahoz-Bengoechea, José María (2021). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (1.0) [Computer software]. https://github.com/jmlahoz/intonalyzer
 printline
 printline 'newline$'LICENSE
 printline (C) 2021 José María Lahoz-Bengoechea
