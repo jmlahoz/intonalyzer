@@ -4,6 +4,10 @@ printline 'newline$'Intonalyzer is partially based on Eti-ToBI, by Wendy Elvira-
 printline 'newline$'and further developed by José María Lahoz-Bengoechea.
 printline 'newline$'Contact, questions, suggestions:'newline$''tab$'jmlahoz@ucm.es
 printline
+printline Suggested citation:
+printline Lahoz-Bengoechea, José María (2021). Intonalyzer (1.0) [Computer software].
+printline Retrieved from https://github.com/jmlahoz/intonalyzer
+printline
 printline 'newline$'LICENSE
 printline (C) 2021 José María Lahoz-Bengoechea
 printline 'newline$'This program is free software; you can redistribute it and/or modify it
