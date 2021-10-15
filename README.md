@@ -23,11 +23,12 @@ Lahoz-Bengoechea, José María (2021). Intonalyzer: A semi-automatic tool for Sp
 Intonalyzer is a tool designed to transcribe Spanish intonation following ToBI principles.
 
 How to install Intonalyzer as a Praat plugin in a permanent fashion:
-1. Go to your Praat options folder.
-   On Windows, this is under your user folder.
-   For example, press the Windows key + R, type
-   %USERPROFILE%\Praat
-   and accept.
+1. Go to your Praat preferences folder.
+   This is always under your user folder, but the location varies depending on your operating system.
+   (In each case, change user_name for your actual user name).
+   --On Windows, go to C:\Users\user_name\Praat
+   --On Mac, go to /Users/user_name/Library/Preferences/Praat Prefs/
+   --On Linux, go to /home/user_name/.praat-dir
 2. Create a subfolder named plugin_intonalyzer
    (this is case-sensitive).
 3. Copy all the Intonalyzer files into that subfolder.
