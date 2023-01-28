@@ -90,31 +90,31 @@ Set point text... bitier curbi 0
 if show_info_window = 1
 if iclit > 12 and iclit < 21
 printline Revisa: si en el intervalo 'iword' el posesivo "nuestro(a/os/as)", "vuestro(a/os/as)" es adjetivo en lugar de determinante, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
-elsif iclit = 37
+elsif iclit = 38
 printline Revisa: si en el intervalo 'iword' "bajo" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
-elsif iclit = 39
+elsif iclit = 40
 printline Revisa: si en el intervalo 'iword' "contra" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
-elsif iclit = 43
+elsif iclit = 44
 printline Revisa: si en el intervalo 'iword' "entre" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
-elsif iclit = 46
+elsif iclit = 47
 printline Revisa: si en el intervalo 'iword' "para" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
-elsif iclit = 49
+elsif iclit = 50
 printline Revisa: si en el intervalo 'iword' "sobre" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
-elsif iclit = 54
-printline Revisa: si en el intervalo 'iword' "salvo" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
 elsif iclit = 55
+printline Revisa: si en el intervalo 'iword' "salvo" no es preposición, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+elsif iclit = 56
 Set point text... bitier curbi 2
 printline Revisa: si en el intervalo 'iword' "don" es tratamiento de cortesía, cambia el BI a 0 y quita la marca de acento de la sílaba.
-elsif iclit = 58
+elsif iclit = 59
 Set point text... bitier curbi 2
 printline Revisa: si en el intervalo 'iword' "santa" va seguido del nombre de la santa, cambia el BI a 0 y quita la marca de acento de la sílaba.
-elsif iclit = 67
+elsif iclit = 68
 printline Revisa: si en el intervalo 'iword' "sino" significa 'destino', cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
-elsif iclit = 71
-printline Revisa: si en el intervalo 'iword' "mientras" es adverbio en lugar de conjunción, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
 elsif iclit = 72
+printline Revisa: si en el intervalo 'iword' "mientras" es adverbio en lugar de conjunción, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
+elsif iclit = 73
 printline Revisa: si en el intervalo 'iword' "luego" es adverbio en lugar de conjunción, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
-elsif iclit = 75
+elsif iclit = 76
 printline Revisa: si en el intervalo 'iword' "medio" no es adverbio, cambia el BI a 2 y añade la marca de acento a la sílaba correspondiente.
 endif ; warning texts
 endif ; show_info_window = 1
