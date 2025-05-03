@@ -1384,22 +1384,22 @@ endif
 endproc
 
 procedure findtierbyname .name$ .v1 .v2
-  .n = Get number of tiers
-  .return = 0
-  for .i to .n
-    .tmp$ = Get tier name... '.i'
-    if .tmp$ == .name$
-      .return = .i
-    endif
-  endfor
-  if  (.return == 0) and (.v1 > 0)
-    exit Tier ''.name$'' not found in TextGrid. Exiting...
-  endif
-  if  (.return > 0) and (.v2 > 0)
-    .i = Is interval tier... '.return'
-    if .i == 0
-      exit Tier number '.return' named '.name$' is not an interval tier. Exiting...
-    endif
-  endif
-
+.n = Get number of tiers
+.return = 0
+for .i to .n
+.tmp$ = Get tier name... '.i'
+.tmp$ = replace$(.tmp$,"/","",0)
+if .tmp$ == .name$
+.return = .i
+endif
+endfor
+if  (.return == 0) and (.v1 > 0)
+exit Tier ''.name$'' not found in TextGrid. Exiting...
+endif
+if  (.return > 0) and (.v2 > 0)
+.isint = Is interval tier... '.return'
+if .isint == 0
+exit Tier number '.return' named '.name$' is not an interval tier. Exiting...
+endif
+endif
 endproc
