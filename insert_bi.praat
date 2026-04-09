@@ -77,7 +77,7 @@ else ; resyllabification context
 t = Get start time of interval... sylltier loint
 endif
 
-Insert point... bitier t 
+nocheck Insert point... bitier t 
 curbi = Get nearest index from time... bitier t
 
 for iclit from 1 to nclit
