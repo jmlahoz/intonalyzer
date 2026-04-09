@@ -1,14 +1,17 @@
 clearinfo
-printline Version May 27th, 2021
+printline Intonalyzer
+printline 'newline$'Version 1.0.1 (2026-04-09)
 printline 'newline$'Intonalyzer is partially based on Eti-ToBI, by Wendy Elvira-Garcia (2015),
 printline 'newline$'and further developed by José María Lahoz-Bengoechea.
-printline 'newline$'Contact, questions, suggestions:'newline$''tab$'jmlahoz@ucm.es
 printline
 printline Suggested citation:
-printline Lahoz-Bengoechea, José María (2021). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (1.0) [Computer software]. https://github.com/jmlahoz/intonalyzer
+printline Lahoz-Bengoechea, José María (2026). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (Version 1.0.1) [Computer software]. https://github.com/jmlahoz/intonalyzer
+printline
+printline Download site:
+printline https://github.com/jmlahoz/intonalyzer
 printline
 printline 'newline$'LICENSE
-printline (C) 2021 José María Lahoz-Bengoechea
+printline (C) 2021-2026 José María Lahoz-Bengoechea
 printline 'newline$'This program is free software; you can redistribute it and/or modify it
 printline under the terms of the GNU General Public License
 printline as published by the Free Software Foundation
