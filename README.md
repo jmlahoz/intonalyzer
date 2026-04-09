@@ -1,5 +1,5 @@
 LICENSE
-(C) 2021 José María Lahoz-Bengoechea.
+(C) 2021-2026 José María Lahoz-Bengoechea.
 This file is part of Intonalyzer.
 Intonalyzer is free software; you can redistribute it and/or modify it
 under the terms of the GNU General Public License
@@ -17,7 +17,7 @@ and David Weenink at University of Amsterdam.
 
 Suggested citation:
 
-Lahoz-Bengoechea, José María (2021). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (1.0) [Computer software]. https://github.com/jmlahoz/intonalyzer
+Lahoz-Bengoechea, José María (2026). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (Version 1.0.1) [Computer software]. https://github.com/jmlahoz/intonalyzer
 
 ------------------------------------------------------------------------------------------
 Intonalyzer is a tool designed to transcribe Spanish intonation following ToBI principles.
