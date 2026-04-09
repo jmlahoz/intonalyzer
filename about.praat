@@ -1,6 +1,6 @@
 clearinfo
 printline Intonalyzer
-printline 'newline$'Version 1.0.1 (2026-04-09)
+printline 'newline$'Version 1.0.2 (2026-04-09)
 printline 'newline$'Intonalyzer is partially based on Eti-ToBI, by Wendy Elvira-Garcia (2015),
 printline 'newline$'and further developed by José María Lahoz-Bengoechea.
 printline
