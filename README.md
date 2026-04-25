@@ -17,7 +17,7 @@ and David Weenink at University of Amsterdam.
 
 Suggested citation:
 
-Lahoz-Bengoechea, José María (2026). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (Version 1.1.0) [Computer software]. https://github.com/jmlahoz/intonalyzer
+Lahoz-Bengoechea, José María (2026). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (Version 1.1.1) [Computer software]. https://github.com/jmlahoz/intonalyzer
 
 ------------------------------------------------------------------------------------------
 Intonalyzer is a tool designed to transcribe Spanish intonation following ToBI principles.

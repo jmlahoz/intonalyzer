@@ -1,11 +1,11 @@
 clearinfo
 printline Intonalyzer
-printline 'newline$'Version 1.1.0 (2026-04-25)
+printline 'newline$'Version 1.1.1 (2026-04-25)
 printline 'newline$'Intonalyzer is partially based on Eti-ToBI, by Wendy Elvira-Garcia (2015),
 printline 'newline$'and further developed by José María Lahoz-Bengoechea.
 printline
 printline Suggested citation:
-printline Lahoz-Bengoechea, José María (2026). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (Version 1.1.0) [Computer software]. https://github.com/jmlahoz/intonalyzer
+printline Lahoz-Bengoechea, José María (2026). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (Version 1.1.1) [Computer software]. https://github.com/jmlahoz/intonalyzer
 printline
 printline Download site:
 printline https://github.com/jmlahoz/intonalyzer
