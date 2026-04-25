@@ -17,7 +17,7 @@ and David Weenink at University of Amsterdam.
 
 Suggested citation:
 
-Lahoz-Bengoechea, José María (2026). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (Version 1.0.2) [Computer software]. https://github.com/jmlahoz/intonalyzer
+Lahoz-Bengoechea, José María (2026). Intonalyzer: A semi-automatic tool for Spanish intonation analysis (Version 1.1.0) [Computer software]. https://github.com/jmlahoz/intonalyzer
 
 ------------------------------------------------------------------------------------------
 Intonalyzer is a tool designed to transcribe Spanish intonation following ToBI principles.
@@ -45,7 +45,7 @@ Intonalyzer runs in two steps.
 
 You must select a Sound and a TextGrid to run this script.
 The input TextGrid must have a "words" and a "syll" tier,
-e.g. as produced by EasyAlign.
+e.g. as produced by FastAlign.
 The files may contain one or more utterances.
 The script checks the words against a list of Spanish clitics
 and labels them with Break Index (BI) = 0.

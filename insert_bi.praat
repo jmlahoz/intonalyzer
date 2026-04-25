@@ -4,7 +4,7 @@
 
 form Insert BI...
 comment Do you want to keep the words tier?
-boolean keep_words_tier 0
+boolean keep_words_tier 1
 comment If BI tier already exists, do you want to overwrite it?
 boolean overwrite 1
 comment After processing...
