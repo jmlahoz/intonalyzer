@@ -32,7 +32,7 @@ tg = Read from file... 'folder$'/'tg$'
 select so
 plus tg
 runScript: "insert_bi.praat", "yes", "yes", "no", "no"
-runScript: "insert_tones.praat", "\'1", 1.5, 6.0, "yes", "yes", "yes", "no", "yes"
+runScript: "insert_tones.praat", "\'1", 1.5, 6.0, "yes", "yes", "yes", "no", "yes", "no"
 select tg
 Save as text file... 'folder$'/'tg$'
 

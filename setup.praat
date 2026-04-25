@@ -3,7 +3,7 @@
 # License: GPL-3.0-or-later
 
 Add menu command... "Objects" "Praat" "Intonalyzer" "" 0 
-Add menu command... "Objects" "Batch intonalyzer..." "Intonalyzer" 1 batch_intonalyzer.praat
+Add menu command... "Objects" "Control" "Batch intonalyzer..." "Intonalyzer" 1 batch_intonalyzer.praat
 Add menu command... "Objects" "Control" "-" "Intonalyzer" 1
 Add menu command... "Objects" "Control" "1. Insert Break Indices..." "Intonalyzer" 1 insert_bi.praat
 Add menu command... "Objects" "Control" "2. Insert Tones..." "Intonalyzer" 1 insert_tones.praat

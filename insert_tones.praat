@@ -15,6 +15,8 @@ boolean overwrite 1
 boolean open_sound_and_tg 1
 comment Analyze melody of deaccented words (marked as BI=1)?
 boolean analyze_melody_of_BI_1 1
+comment After processing...
+boolean show_sound_and_tg 1
 endform
 ##}
 
@@ -1344,7 +1346,9 @@ plus pitchtier
 Remove
 select so
 plus tg
+if show_sound_and_tg = 1
 View & Edit
+endif
 ##}
 
 
